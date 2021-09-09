@@ -3,7 +3,7 @@
 }
 
 #seccion0{
- background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.4)), url("imagenes/lkconespada.jpg") no-repeat center center fixed;
+ background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.4)), url("imagenes/lk4k.jpg") no-repeat center center fixed;
  height: 100vh;
  background-size: cover;
  margin-top: 1,5rem;
@@ -29,12 +29,20 @@
     background-size: cover;
 }
 
- #seccion3 {
+ #Seccion2 {
      padding-top: 20rem;
  padding: 1rem;
- background: url("imagenes/backgroundwow.jpg") no-repeat center center fixed;
+ background: url("imagenes/Sylvanas4k.jpg") no-repeat center center fixed;
    background-size:cover;
    height: 100vh;
+
+}
+#Seccion3 {
+    padding-top: 20rem;
+padding: 1rem;
+background: url("imagenes/Voljin.jpg") no-repeat center center fixed;
+  background-size:cover;
+  height: 100vh;
 
 }
 
@@ -80,6 +88,60 @@
     height: auto;
     width: auto;
     object-fit: cover;
+}
+
+.circulo {
+
+width: 4rem;
+height: 4rem;
+border-radius: 4rem; 
+border: 1px solid white;
+padding: 0.9rem ;
+font-size: 2rem;
+text-align: center;
+margin: 2rem 1rem;
+text-decoration: none;
+color: white;
+-webkit-transition: all 200ms easy-out;
+-moz-transition: all 200ms easy-out;
+-ms-transition: all 200ms easy-out;
+-o-transition: all 200ms easy-out;
+transition: all 200ms easy-out;
+
+
+
+}
+
+a.circulo:hover{
+
+color: white;
+transform: scale(1.1);
+filter: brightness(110%);
+
+}
+
+.facebook {
+    background: #3b5998;
+}
+.google {
+
+    background: rgb(199, 86, 41);
+}
+
+.spotify{
+
+    background: yellowgreen;
+}
+
+.instagram{
+
+    background: rgba(34, 91, 156, 0.849);
+}
+.whatsapp{
+    background: rgb(7, 160, 33) ;
+}
+.youtube{
+    background: rgb(170, 4, 4);
 }
 
 

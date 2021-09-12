@@ -1,6 +1,10 @@
 ::-webkit-scrollbar{
     display: none;
 }
+html {
+scroll-behavior: smooth;
+    border: 0  px solid violet;
+}
 
 #seccion0{
  background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.4)), url("imagenes/lk4k.jpg") no-repeat center center fixed;
@@ -16,7 +20,8 @@
     border: 5px solid #fcfcfca2;
     padding: 3rem;
     backdrop-filter: blur(5px) brightness(140%);
-    margin-top: 3rem;
+    
+    margin-top: calc(50vh - 350px);
 }
 #blog *{
     position: relative;
@@ -74,12 +79,12 @@ background: url("imagenes/Voljin.jpg") no-repeat center center fixed;
 
 .card{
     position: relative;
-    width: 42.5vh;
+    width: 36vh;
     margin: 0.50vh;
     cursor: pointer;  
     transform: scale(0.95);
-    -webkit-box-shadow: 0 0px 0px 0px #828282;
-    box-shadow: 0 0px 0px 0px #828282;
+   -webkit-box-shadow: 1px 1px 23px 1px #FFFFFF;
+box-shadow: 1px 1px 23px 1px #FFFFFF;
 
     -webkit-transition: all 600ms ease-out;
     -moz-transition: all 600ms ease-out;
@@ -92,9 +97,8 @@ background: url("imagenes/Voljin.jpg") no-repeat center center fixed;
 .card:hover{
     transform: scale(1);
 
--webkit-box-shadow: 0 6px 9px -3px #828282;
-    box-shadow: 0 6px 9px -3px #828282;
-
+    -webkit-box-shadow: 1px 1px 23px 1px #FFFFFF;
+    box-shadow: 1px 1px 23px 1px #FFFFFF;
     -webkit-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
     -ms-transition: all 200ms ease-out;
@@ -108,6 +112,10 @@ background: url("imagenes/Voljin.jpg") no-repeat center center fixed;
     width: auto;
     object-fit: cover;
 }
+.card.bg-danger{
+    background-color: darkred !important;
+}
+
 
 .circulo {
 
@@ -184,7 +192,7 @@ form{
 }
 
 .navbar{
-    border: 0px solid red;
+    border: 5px solid red;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -210,5 +218,10 @@ form{
 
 .container h5 span.text-white{
   border:0px solid magenta;
-  text-shadow: 1px 1px 3px rgba(0 ,0 ,0.5 )
+  text-shadow: 1px 1px 3px rgba(0 ,0 ,0.5 ) 
 }
+
+.container h5 span.text-danger{
+    border:0px solid magenta;
+    text-shadow: 1px 1px 3px rgba(0 ,0 ,0.3 ) 
+  } 

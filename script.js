@@ -2,7 +2,9 @@ $(document).ready(
 
     function () {
     deslizar( $('#seccion0'), $('#seccion0 .efecto') );
-    deslizar( $('#seccion0'), $('#seccion0 .efecto') );
+    deslizar( $('#seccion1'), $('#seccion1 .efecto') );
+    deslizar( $('#Seccion2'), $('#Seccion2 .efecto') );
+    deslizar( $('#Seccion3'), $('#Seccion3 .efecto') );
  
 
 

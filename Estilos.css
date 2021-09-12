@@ -239,19 +239,16 @@ form{
       right: -100px;
       
   }
+  
   .e-izquierda{
       left: -100px;
   }
   
-  #seccion0:hover #titulo1{
-    position: relative;
-      
-      filter: opacity(100%);
-      right: 0;
-      
-  }
+ .e-arriba{
+    top: -100px;
+ }
 
-  #seccion0:hover #titulo2{
-      filter: opacity(100%);
-      left: 0;
-  }
+ .e-abajo{
+     bottom: -100px;
+
+ }

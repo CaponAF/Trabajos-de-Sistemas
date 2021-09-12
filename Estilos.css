@@ -129,11 +129,11 @@ text-align: center;
 margin: 2rem 1rem;
 text-decoration: none;
 color: white;
--webkit-transition: all 200ms easy-out;
--moz-transition: all 200ms easy-out;
--ms-transition: all 200ms easy-out;
--o-transition: all 200ms easy-out;
-transition: all 200ms easy-out;
+-webkit-transition: all 200ms ease-out;
+-moz-transition: all 200ms ease-out;
+-ms-transition: all 200ms ease-out;
+-o-transition: all 200ms ease-out;
+transition: all 200ms ease-out;
 
 
 
@@ -225,3 +225,33 @@ form{
     border:0px solid magenta;
     text-shadow: 1px 1px 3px rgba(0 ,0 ,0.3 ) 
   } 
+
+  .efecto {
+    position: relative;
+      filter: opacity(0%);
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+  }
+  .e-derecha {
+      right: -100px;
+      
+  }
+  .e-izquierda{
+      left: -100px;
+  }
+  
+  #seccion0:hover #titulo1{
+    position: relative;
+      
+      filter: opacity(100%);
+      right: 0;
+      
+  }
+
+  #seccion0:hover #titulo2{
+      filter: opacity(100%);
+      left: 0;
+  }

@@ -122,7 +122,7 @@ box-shadow: 1px 1px 23px 1px #FFFFFF;
 width: 4rem;
 height: 4rem;
 border-radius: 4rem; 
-border: 1px solid white;
+border: 0px solid white;
 padding: 0.5rem ;
 font-size: 2rem;
 text-align: center;
@@ -201,7 +201,7 @@ form{
 .barra-progreso {
     padding: 0;
     margin: 0;
-    top: 5rem;
+    top: 3.6rem;
     border: none;
 
 }
@@ -214,6 +214,11 @@ form{
 }
 .progreso.active {
     background-color: white;
+}
+
+.progreso.active, .visto{
+    background-color: white;
+
 }
 
 .container h5 span.text-white{
@@ -251,4 +256,43 @@ form{
  .e-abajo{
      bottom: -100px;
 
+ }
+
+ .d0 {
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+ }
+ 
+ .d100{
+    -webkit-transition: all 400ms ease-out 100ms;
+    -moz-transition: all 400ms ease-out  100ms;
+    -ms-transition: all 400ms ease-out  100ms;
+    -o-transition: all 400ms ease-out  100ms;
+    transition: all 400ms ease-out  100ms;
+ }
+
+ .d200{
+    -webkit-transition: all 400ms ease-out 200ms;
+    -moz-transition: all 400ms ease-out  200ms;
+    -ms-transition: all 400ms ease-out  200ms;
+    -o-transition: all 400ms ease-out  200ms;
+    transition: all 400ms ease-out  200ms;
+ }
+
+ .d300{
+    -webkit-transition: all 400ms ease-out 300ms;
+    -moz-transition: all 400ms ease-out  300ms;
+    -ms-transition: all 400ms ease-out  300ms;
+    -o-transition: all 400ms ease-out  300ms;
+    transition: all 400ms ease-out  300ms;
+ }
+ .d400{
+    -webkit-transition: all 400ms ease-out 400ms;
+    -moz-transition: all 400ms ease-out  400ms;
+    -ms-transition: all 400ms ease-out  400ms;
+    -o-transition: all 400ms ease-out  400ms;
+    transition: all 400ms ease-out  400ms;
  }
